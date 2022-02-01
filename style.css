@@ -20,50 +20,61 @@ body {
 }
 
 .logo {
+  font-size: 3rem;
+  letter-spacing: 1.5rem;
+  text-transform: uppercase;
   color: white;
 }
 
 .form-container {
   display: flex;
   flex-direction: column;
-  padding-left: 2rem;
 }
 .hero {
   text-align: left;
-  margin-top: 10vw;
+  margin-top: 10vh;
   margin-right: 10vw;
   font-size: 2rem;
   font-weight: 800;
+  padding-left: 2rem;
 }
 
 form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  width: 30vw;
-  margin-top: 5vw;
+  grid-gap: 10px;
   margin-bottom: 1vw;
+  box-shadow: 0 8px 10px -6px black;
+  padding: 3rem;
 }
 
 button {
-  height: 40px;
+  height: 50px;
   width: 180px;
   background-color: green;
   color: white;
-  margin: 1rem;
+  margin: 1rem 3rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+  font-size: 1rem;
+  font-weight: 800;
 }
 
 .input-box {
   display: flex;
   flex-direction: column;
-  width: 12rem;
+  width: 14rem;
+  margin-right: 5rem;
+  margin-top: 1rem;
 }
 
 input {
-  padding: 5px;
+  padding: 10px;
   border: 1px solid green;
+  border-radius: 5px;
 }
 
 .form-container span {
   margin: 0 1rem;
+  padding-left: 2rem;
 }
